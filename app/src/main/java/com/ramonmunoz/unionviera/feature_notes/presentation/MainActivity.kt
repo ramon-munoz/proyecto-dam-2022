@@ -1,4 +1,4 @@
-package com.ramonmunoz.unionviera
+package com.ramonmunoz.unionviera.feature_notes.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
