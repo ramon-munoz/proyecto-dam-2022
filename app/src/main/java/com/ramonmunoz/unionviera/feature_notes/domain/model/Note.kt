@@ -3,6 +3,7 @@ package com.ramonmunoz.unionviera.feature_notes.domain.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.ramonmunoz.unionviera.ui.theme.*
+import java.lang.Exception
 
 @Entity
 data class Note(
@@ -16,3 +17,5 @@ data class Note(
         val  noteColors = listOf(RedOrange, LightGreen, Violet, BabyBlue, RedPink)
     }
 }
+
+class InvalidNoteException(message: String): Exception(message)
